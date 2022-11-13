@@ -1,0 +1,422 @@
+.wallatBox {
+    width: 33vw;
+    text-align: left;
+  }
+  
+  .wallatBox1 {
+    height: 10vw;
+    background-color: white;
+    background: #ffffff;
+    box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 1.5vw;
+    padding: 2vw;
+    margin-right: 7vw;
+  }
+  .wallatBox2 {
+    height: 10vw;
+  
+    width: 30vw;
+  }
+  
+  .wallatmoneytypebox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .wallatmoneytype {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 1.5vw;
+    /* identical to box height */
+  
+    color: #800080;
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .wallatmoneytypevalue {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.1vw;
+    line-height: 3.7vw;
+    /* identical to box height */
+  
+    color: #000000;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .withdrawbutton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5vw 1vw;
+    gap: 10px;
+    justify-content: center;
+    background: #800080;
+    border-radius: 20px;
+    height: 2.1vw;
+    width: 15vw;
+    cursor: pointer;
+  
+    text-align: center;
+    margin: auto;
+    margin-top: 2vw;
+    text-align: center;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1vw;
+    line-height: 1.7vw;
+    /* identical to box height */
+  
+    color: #ffffff;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .wallwtreffer {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vw;
+    line-height: 2.3vw;
+    /* identical to box height */
+  
+    color: #800080;
+  }
+  .reffercodebox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5vw 0vw;
+    gap: 10px;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 10px;
+    height: 3vw;
+    width: 30vw;
+  
+    text-align: center;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(270deg, #800080 0%, #ed4c5c 100%);
+    border-image-slice: 1;
+    margin-top: 2vw;
+    text-align: center;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4vw;
+    line-height: 30px;
+    /* identical to box height */
+  
+    letter-spacing: 1.5em;
+  
+    color: #800080;
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    -webkit-border-radius: 5px;
+  }
+  
+  .homwworkheading {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 1.8vw !important;
+    line-height: 2.3vw !important;
+    /* identical to box height */
+  
+    color: #800080 !important;
+    margin-bottom: 1.5vw;
+  }
+  
+  .homeworktypebox {
+    display: flex;
+    width: 65vw;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .homeworktype {
+    width: 30vw;
+    display: flex;
+    margin-right: 2.5vw;
+    margin-bottom: 2vw;
+    margin-top: 1vw;
+  }
+  .homeworktuypeimg {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    background: rgba(217, 217, 217, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1vw;
+  }
+  .homeworktuypeimg img {
+    width: 2.2vw;
+    height: 2.2vw;
+    object-fit: contain;
+  }
+  .homeworktitilw {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1vw !important;
+    line-height: 2vw !important;
+    /* identical to box height */
+  
+    color: #000000;
+  }
+  .homeworktitilwdesc {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 1.1vw !important;
+    line-height: 1.7vw !important;
+  
+    color: #4d4d4d;
+  }
+  
+  .nameenroolsfooter {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 1.1vw !important;
+    line-height: 2vw !important;
+    /* identical to box height */
+    margin-bottom: 1vw !important;
+    cursor: pointer;
+  
+    color: #800080 !important;
+  }
+  
+  @media only screen and (max-device-width: 700px) {
+    .wallatBox {
+      width: 76vw;
+      text-align: left;
+    }
+  
+    .wallatBox1 {
+      height: 40vw;
+      background-color: white;
+      background: #ffffff;
+      box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+      border-radius: 3vw;
+      padding: 4vw;
+      margin-right: 0vw;
+    }
+    .wallatBox2 {
+      height: 30vw;
+  
+      width: 84vw;
+    }
+  
+    .wallatmoneytypebox {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .wallatmoneytype {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 3.3vw;
+      line-height: 5vw;
+      margin-top: 2vw;
+      /* identical to box height */
+      width: 50%;
+      color: #800080;
+      height: 20vw;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+    .wallatmoneytypevalue {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 6.5vw;
+      line-height: 9vw;
+      /* identical to box height */
+  
+      color: #000000;
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+    .withdrawbutton {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0.5vw 1vw;
+      gap: 10px;
+      justify-content: center;
+      background: #800080;
+      border-radius: 20px;
+      height: 8vw;
+      width: 35vw;
+      cursor: pointer;
+  
+      text-align: center;
+      margin: auto;
+      margin-top: 2vw;
+      text-align: center;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 3.3vw;
+      line-height: 4vw;
+      /* identical to box height */
+  
+      color: #ffffff;
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+  
+    .wallwtreffer {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 5.5vw;
+      line-height: 8.3vw;
+      /* identical to box height */
+  
+      color: #800080;
+      margin-top: 5vw;
+    }
+    .reffercodebox {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0.5vw 0vw;
+      gap: 10px;
+      justify-content: center;
+      border: 1px solid;
+      border-radius: 10px;
+      height: 10vw;
+      width: 100%;
+  
+      text-align: center;
+      border-bottom: 1px solid transparent;
+      border-image: linear-gradient(270deg, #800080 0%, #ed4c5c 100%);
+      border-image-slice: 1;
+      margin-top: 2vw;
+      text-align: center;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 4.2vw;
+      line-height: 30px;
+      /* identical to box height */
+  
+      letter-spacing: 1.5em;
+  
+      color: #800080;
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      -webkit-border-radius: 5px;
+    }
+  
+    .homwworkheading {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600 !important;
+      font-size: 5.5vw !important;
+      line-height: 7vw !important;
+      /* identical to box height */
+  
+      color: #800080 !important;
+      margin-bottom: 4vw;
+    }
+  
+    .homeworktypebox {
+      display: flex;
+      width: 84vw;
+      align-items: center;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .homeworktype {
+      width: 82vw;
+      display: flex;
+      margin-right: 2.5vw;
+      margin-bottom: 4vw;
+      margin-top: 2vw;
+    }
+    .homeworktuypeimg {
+      width: 15vw;
+      height: 15vw;
+      border-radius: 50%;
+      background: rgba(217, 217, 217, 0.25);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 3vw;
+    }
+    .homeworktuypeimg img {
+      width: 8vw;
+      height: 8vw;
+      object-fit: contain;
+    }
+    .homeworktitilw {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 3.3vw !important;
+      line-height: 5vw !important;
+      /* identical to box height */
+      width: 100%;
+      color: #000000;
+    }
+    .homeworktitilwdesc {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400 !important;
+      font-size: 3.3vw !important;
+      line-height: 5.5vw !important;
+  
+      color: #4d4d4d;
+    }
+  
+    .nameenroolsfooter {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500 !important;
+      font-size: 4vw !important;
+      line-height: 7vw !important;
+      /* identical to box height */
+      margin-bottom: 2vw !important;
+      cursor: pointer;
+  
+      color: #800080 !important;
+    }
+  }

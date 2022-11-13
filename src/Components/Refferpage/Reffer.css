@@ -1,0 +1,354 @@
+.RefferCodebox {
+    width: 20vw;
+    height: 7vw;
+    text-align: left;
+  }
+  
+  .Refferwallwtbox {
+    background: #ffffff;
+    box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+    border-radius: 20px;
+    height: 6.5vw;
+    width: 12vw;
+    text-align: center;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .wallatmoneycodedta {
+    width: 14vw;
+    border: 1.5px solid #dfdfdf;
+    border-radius: 10px;
+    height: 4vw;
+    margin-top: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1vw;
+    line-height: 2vw;
+    /* identical to box height */
+  
+    letter-spacing: 0.8em;
+  
+    color: #000000;
+  }
+  .frndenrolltilte {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 1.45vw !important;
+    line-height: 2.5vw !important;
+    /* identical to box height */
+  
+    color: #800080 !important;
+  }
+  .frndenrolltilte span {
+    font-weight: 400 !important;
+    font-size: 1.45vw !important;
+    line-height: 2.5vw !important;
+    /* identical to box height */
+  
+    color: #22212293 !important;
+  }
+  .scrollfrndinvitedcardsbox {
+    width: 75vw;
+    max-width: 75vw;
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 1vw;
+  }
+  .scrollfrndinvitedcardsbox::-webkit-scrollbar{
+    display: none;
+  }
+  .scrollfrndinvitedcard {
+    width: 27.5vw;
+    margin: 1vw;
+    background: linear-gradient(270deg, #800080 0%, #ff864c 100%);
+    margin-left: 0vw;
+    margin-right: 2vw;
+    border-radius: 20px;
+    height: 17.5vw;
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    padding: 2vw;
+    flex-grow: 0;
+  }
+  
+  .frndinvidecardname {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .frndinvidecardnamedata {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.15vw;
+    line-height: 2vw;
+    /* identical to box height */
+  
+    color: #ffffff;
+  }
+  .frndinvidecardnametime {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 1.7vw;
+    /* identical to box height */
+  
+    color: #ffffff;
+  }
+  
+  .frndinvidecardcourse {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 1.7vw;
+    /* identical to box height */
+  
+    margin-top: 1vw;
+    color: #ffffff;
+  }
+  .frndinvidecardcoursedatabox {
+    height: 8.2vw;
+    max-height: 8.2vw;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 1vw;
+    margin-top: 0.5vw;
+  }
+  .frndinvidecardcoursedatabox::-webkit-scrollbar{
+    width: 0.5em;
+    height: 0.5em;
+  }
+  .frndinvidecardcoursedatabox::-webkit-scrollbar-thumb {
+    background-color: rgba(255,255,255,.1);
+    border-radius: 3px;
+  }
+  .frndinvidecardcoursedataboxdata {
+    height: 1.8vw;
+    padding: 0.5vw 1vw;
+    display: flex;
+    align-items: center;
+    border: 1.5px solid #eeaeae;
+    border-radius: 20px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 1.7vw;
+    /* identical to box height */
+  
+    color: #ffffff;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0.5vw;
+    margin-left: 0vw;
+  }
+  
+  .frndinvidecardearn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.15vw;
+    line-height: 2vw;
+    /* identical to box height */
+    margin-top: 2vw;
+  
+    color: #ffffff;
+  }
+  
+  @media only screen and (max-device-width: 700px) {
+    .RefferCodebox {
+      width: 50vw;
+      height: 30vw;
+      text-align: left;
+    }
+  
+    .Refferwallwtbox {
+      background: #ffffff;
+      box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+      border-radius: 20px;
+      height: 22.5vw;
+      width: 42vw;
+      text-align: center;
+  
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .wallatmoneycodedta {
+      width: 34vw;
+      border: 1.5px solid #dfdfdf;
+      border-radius: 10px;
+      height: 10vw;
+      margin-top: 1vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 3.3vw;
+      line-height: 4vw;
+      /* identical to box height */
+  
+      letter-spacing: 0.8em;
+  
+      color: #000000;
+    }
+    .frndenrolltilte {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600 !important;
+      font-size: 4.2vw !important;
+      line-height: 5vw !important;
+      /* identical to box height */
+  
+      color: #800080 !important;
+    }
+    .frndenrolltilte span {
+      font-weight: 400 !important;
+      font-size: 4.2vw !important;
+      line-height: 5vw !important;
+      /* identical to box height */
+  
+      color: #22212293 !important;
+    }
+    .scrollfrndinvitedcardsbox {
+      width: 84vw;
+      max-width: 84vw;
+      display: flex;
+      overflow-x: hidden;
+      flex-direction: column;
+      margin-top: 1vw;
+    }
+    .scrollfrndinvitedcard {
+      width: 76vw;
+      margin: 1vw;
+      background: linear-gradient(270deg, #800080 0%, #ff864c 100%);
+      margin-left: 0vw;
+      margin-right: 2vw;
+      border-radius: 20px;
+      height: 37.5vw;
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      padding: 4vw;
+      flex-grow: 0;
+    }
+  
+    .frndinvidecardname {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .frndinvidecardnamedata {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 3.4vw;
+      line-height: 5vw;
+      /* identical to box height */
+  
+      color: #ffffff;
+    }
+    .frndinvidecardnametime {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 3vw;
+      line-height: 5vw;
+      /* identical to box height */
+  
+      color: #ffffff;
+    }
+  
+    .frndinvidecardcourse {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 3vw;
+      line-height: 5vw;
+      /* identical to box height */
+  
+      margin-top: 2vw;
+      color: #ffffff;
+    }
+    .frndinvidecardcoursedatabox {
+      height: 18vw;
+      max-height: 18vw;
+      overflow-y: scroll;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-left: 2vw;
+      margin-top: 1vw;
+    }
+    .frndinvidecardcoursedataboxdata {
+      height: 4vw;
+      padding: 1vw 2vw;
+      display: flex;
+      align-items: center;
+      border: 1.5px solid #eeaeae;
+      border-radius: 20px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 3vw;
+      line-height: 1.7vw;
+      /* identical to box height */
+  
+      color: #ffffff;
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin: 1vw;
+      margin-left: 0vw;
+      margin-right: 2vw;
+    }
+  
+    .frndinvidecardearn {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+  
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 3.3vw;
+      line-height: 5vw;
+      /* identical to box height */
+      margin-top: 2vw;
+  
+      color: #ffffff;
+    }
+  }
